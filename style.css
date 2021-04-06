@@ -1,0 +1,82 @@
+#conteneur{
+    width: 950px;
+    height: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+        
+}
+.search-logo{
+    width: 30px;
+    margin: auto;
+}
+.micro-logo{
+    width: 30px;
+    height: 20px
+}
+.google-logo{
+    width: 400px;
+    height: 100 ;
+    flex-direction: column;
+    justify-content: center;
+}
+.search{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 60vh;
+    align-items: center;
+}
+.barre-search{
+    display: flex;
+    margin-top: 50px;
+    width: 500px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 1px gray;
+    border-radius: 20px;
+}
+.bonton{
+    margin-top: 50px;
+}
+.btn{
+    margin-right: 20px;
+    border: none;
+}
+.input{
+    width: 400px;
+    border: none;
+}
+#entete{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 50px;
+
+}
+.header ul a{
+    text-decoration: none;
+    color: black;
+}
+.trame{
+    height: 20vh;
+    background-color: rgb(206, 203, 203);
+    position:absolute;
+    width: 128%;
+    bottom: 0;
+}
+.trame ul{
+    list-style: none;
+    margin-left: 10px;
+}.trame li{
+    display: inline-block;
+}
+.trame li a{
+    font-size: 19px;
+    text-decoration: none;
+    color: grey;
+    margin-left: 20px;
+
+
+}
